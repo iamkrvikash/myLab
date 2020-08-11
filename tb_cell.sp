@@ -2,8 +2,8 @@ SRAM Design
 *Include LIB FILE
 .lib /home/vlsi/project2020/eda/ngspice-32/scn4m_subm.lib nom
 *Include subcircuit
-xi bl blb wl vdd gnd cell_sram
-.include cell_sram.sp
+xi bl blb wl vdd gnd cell_icon
+.include cell_icon.sp
 *Precharge transistor
 m7 bl  pc vdd vdd p w='2.0u' l='0.4u'
 m8 blb pc vdd vdd p w='2.0u' l='0.4u'
