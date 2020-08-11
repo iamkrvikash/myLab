@@ -33,8 +33,8 @@ vpc pc 0 pulse(0 5 20n 1n 1n 30n 80n)
 *Access Control
 vwl wl 0 pulse(0 5 20n 1n 1n 30n 80n)
 *Write Pulse
-vwrite0 w0 0 pulse(0 5 180n 1n 1n 30n 200n)
-vwrite1 w1 0 pulse(0 5 100n 1n 1n 30n 200n)
+vwrite0 w0 0 pulse(0 5 180n 1n 1n 30n 160n)
+vwrite1 w1 0 pulse(0 5 100n 1n 1n 30n 160n)
 *Transient Analysis
 .tran 5p 300n
 .control
