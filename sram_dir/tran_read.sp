@@ -1,8 +1,8 @@
 SRAM Design 
 *Include LIB FILE
-.lib /home/vlsi/project2020/eda/ngspice-32/scn4m_subm.lib ff
+.lib /home/vlsi/project2020/eda/ngspice-32/scn4m_subm.lib nom
 *Temperatures
-.temp 105
+.temp 27
 *Include subcircuit
 xi bl blb wl vdd gnd cell_icon
 .include cell_icon.sp
