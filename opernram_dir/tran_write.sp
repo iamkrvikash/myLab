@@ -41,7 +41,7 @@ vwrite0 w0 0 pulse(0 5 170n 1n 1n 5n 200n)
 .tran 5p 300n
 .control
 run
-plot  v(xi.q) v(xi.qbar)  v(bl)+10 v(blb)+10 v(w1)+20 v(w0)+20 v(wl)+30 v(pc)+40
+plot  v(xi.q) v(xi.qbar)  v(bl)+6 v(blb)+6 v(w1)+12 v(w0)+12 v(wl)+18 v(pc)+24
 .endc
 
 .end
