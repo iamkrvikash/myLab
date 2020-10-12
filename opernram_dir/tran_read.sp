@@ -1,6 +1,6 @@
 SRAM Design 
 *Include LIB FILE
-.lib /home/vlsi/project2020/eda/ngspice-32/scn4m_subm.lib nom
+.lib /home/vlsi/projects/project2020/eda/ngspice-32/scn4m_subm.lib nom
 *Temperatures
 .temp 27
 *DC VOltage Sources
