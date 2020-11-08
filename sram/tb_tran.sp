@@ -1,6 +1,6 @@
 SRAM Design 
 *Include LIB FILE
-.lib scmos_bsim4.lib nom
+.lib ../scmos_bsim4.lib nom
 
 *Temperatures 
 .temp 27
@@ -53,7 +53,7 @@ vdin din 0 pulse(0 5 75n 1n 1n 20n 200n)
 
 
 *Transient Analysis
-.tran 5p 300n
+.tran 5p 250n
 .control
 run
 plot v(dout)-6 v(xi.q) v(xi.qbar) v(bl)+6 v(blb)+6 v(din)+12 v(enw)+18 v(en)+24 v(wl)+30 v(clk)+36
