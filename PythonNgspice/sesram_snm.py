@@ -25,7 +25,6 @@ plt.plot(x_25_2,y_25_2)
 plt.show()
 
 
-# In[ ]:
 
 
 
