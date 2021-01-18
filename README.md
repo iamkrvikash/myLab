@@ -1,3 +1,3 @@
 # myLab
 Contains files for myLab purpose
-OpenRAM
+OpenRAM & SE-SRAM
